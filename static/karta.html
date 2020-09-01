@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="css/karta.css" rel="stylesheet" />
+    <meta charset=utf-8 />
+
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="css/lib/ratchet.min.css" rel="stylesheet">
+
+    <title>karta</title>
+
+</head>
+<body>
+    <canvas></canvas> <!-- animated background -->
+
+    <div class="ct"></div>
+    <div id="cy"></div>
+<!--
+    <div class="navbar">
+        <a href="feed.html" >feed</a>
+        <a href="posts.html" >posts</a>
+        <a href="#person" >person</a>
+        <a href="karta.html" class="active">karta</a>
+    </div>
+-->
+    <script src="js/lib/constellation.min.js"></script>
+    <script src="js/lib/cytoscape.min.js"></script>
+
+    <script src="js/karta.js"></script>
+
+
+    <nav class="bar bar-tab" style="height:4%;">
+        <a class="tab-item" href="feed.html">
+          <span class="icon icon-rss"></span>
+          <span class="tab-label">Feed</span>
+        </a>
+        <a class="tab-item" href="artel.html">
+          <span class="icon icon-communa"></span>
+          <span class="tab-label">Artel</span>
+      </a>
+        <a class="tab-item" href="posts.html">
+            <span class="icon icon-plane-message"></span>
+            <span class="tab-label">Message's</span>
+        </a>
+        <a class="tab-item" href="person.html">
+          <span class="icon icon-person"></span>
+          <span class="tab-label">Person</span>
+        </a>
+        <a class="tab-item active" href="karta.html">
+          <span class="icon icon-ursa-major"></span>
+          <span class="tab-label">karta</span>
+        </a>
+      </nav>
+</body>
+</html>
